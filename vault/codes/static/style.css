@@ -1,0 +1,115 @@
+.whole{
+    background-color: snow;
+    
+}
+.w{
+    background-image:url(web-development-image.webp)  ;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    width: 200px;
+    transition-property:width;
+    transition-duration:500ms;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.w:hover{
+    width:400px;
+    box-shadow: 5px 10px 10px;
+    height: 350px;
+}
+.b{
+    background-color:aqua;
+    border-radius:10px;
+    padding:10px;
+    
+}
+.a:hover{
+    width:400px;
+    box-shadow: 5px 10px 10px;
+}
+.a{
+    
+    background-image:url(app_development.png) ;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    width: 250px;
+    transition-property:width;
+    transition-duration:500ms;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.p:hover{
+    width:400px;
+    box-shadow: 5px 10px 10px;
+}
+.p{
+    background-image:url(python-development-image.jpg) ;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    width: 200px;
+    transition-property:width;
+    transition-duration:500ms;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.j:hover{
+    width:400px;
+    box-shadow: 5px 10px 10px;
+}
+.j{
+    background-image:url(java-programming-image.jpg) ;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    width: 200px;
+    transition-property:width;
+    transition-duration:500ms;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c{
+    background-image:url(conva-image.webp) ;
+    text-align:center;
+    color:white;
+    border-radius:10px;
+    width: 200px;
+    transition-property:width;
+    transition-duration:500ms;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c:hover{
+    width:400px;
+    box-shadow: 5px 10px 10px;
+}
+.approve{
+    display: flex;
+    flex-direction: row;
+    justify-content: center,space-between;
+    width:80px;
+    height:89px;
+
+}
+.first{
+    display :flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content:space-evenly;
+}
+.second{
+    display :flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+.third{
+    display :flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-evenly;
+
+}
